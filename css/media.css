@@ -10,7 +10,7 @@
 @media screen and (max-width: 1400px) {
   .banner-wall {
     min-height: 553px; }
-  #banner-carousel .item {
+  .banner-quote .item {
     height: 533px; }
   .info-desc {
     padding: 3em 2.5em 0 2.5em; }
@@ -29,20 +29,20 @@
     padding-bottom: 45px; }
   #services .service-img {
     margin-top: 45px; }
-  #banner-carousel .item .corousel-desc h1 {
+  .banner-quote .item .corousel-desc h1 {
     font-size: 40px !important;
     line-height: 44px; }
   #navigation .logo a {
     font-size: 35px; }
-  #banner-carousel .item .corousel-desc p {
+  .banner-quote .item .corousel-desc p {
     font-size: 25px !important; }
-  #banner-carousel .item .corousel-desc .slide-wrap {
+  .banner-quote .item .corousel-desc .slide-wrap {
     margin: 27px 0; }
   .block-title {
     font-size: 30px; }
-  .about-desc {
+  .block-desc {
     font-size: 14px; }
-  .about-panel-item .about-link {
+  .service-panel-item .service-link {
     font-size: 17px; }
   .info-desc {
     padding: 2em; }
@@ -51,6 +51,15 @@
   .info-desc p {
     font-size: 14px;
     margin-bottom: 12px; }
+  .about-text p {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .about-check p {
+    font-size: 14px; }
+  .service-panel-item .panel-body .panel-list li {
+    font-size: 14px; }
+  .service-panel-item .service-link img {
+    right: 0; }
   .info-desc .inf-list li {
     font-size: 14px;
     margin-bottom: 15px; }
@@ -59,14 +68,6 @@
     margin-top: 8px; }
   .team-item img {
     max-width: 165px; }
-  footer {
-    padding: 50px 0 10px 0; }
-  .footer-title {
-    font-size: 17px;
-    margin-bottom: 20px; }
-  .footer-p1, .footer-p2 {
-    font-size: 13px;
-    margin-bottom: 5px; }
   .footer-nav li a {
     font-size: 14px; }
   .copyright {
@@ -87,14 +88,14 @@
 
 /*992px*/
 @media screen and (max-width: 991px) {
-  #banner-carousel .item .corousel-desc h1 {
+  .banner-quote .item .corousel-desc h1 {
     font-size: 30px !important;
     line-height: 33px; }
-  #banner-carousel .item .corousel-desc p {
+  .banner-quote .item .corousel-desc p {
     font-size: 17px !important; }
-  #banner-carousel .item .corousel-desc .slide-wrap {
+  .banner-quote .item .corousel-desc .slide-wrap {
     margin: 28px 0 24px 0; }
-  #banner-carousel .item {
+  .banner-quote .item {
     height: 502px; }
   .banner-wall {
     min-height: 502px; }
@@ -107,7 +108,7 @@
     padding: 0 2px; }
   .block-title {
     font-size: 25px; }
-  .about-panel-item .about-link {
+  .service-panel-item .service-link {
     font-size: 15px; }
   .info-desc h1 {
     font-size: 27px; }
@@ -118,9 +119,6 @@
     text-align: center; }
     .col-foot:last-child {
       margin-bottom: 0; }
-  .footer-group2 {
-    text-align: center;
-    padding-top: 20px; }
   .footer-nav ul {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -144,9 +142,9 @@
 @media screen and (max-width: 767px) {
   .banner-wall {
     min-height: 350px; }
-  #banner-carousel .item {
+  .banner-quote .item {
     height: 350px; }
-  #banner-carousel .item .corousel-desc .slide-wrap {
+  .banner-quote .item .corousel-desc .slide-wrap {
     margin: 25px 0 20px 0; }
   .corousel-desc {
     top: 30% !important; }
@@ -177,10 +175,10 @@
 
 /*667px*/
 @media screen and (max-width: 667px) {
-  #banner-carousel .item .corousel-desc h1 {
+  .banner-quote .item .corousel-desc h1 {
     font-size: 25px !important;
     line-height: 27px; }
-  #banner-carousel .item .corousel-desc p {
+  .banner-quote .item .corousel-desc p {
     font-size: 14px !important; }
   .banner-wall {
     min-height: 365px; }
@@ -188,7 +186,7 @@
     top: 25%; }
   .block-title {
     font-size: 22px; }
-  .about-desc {
+  .block-desc {
     margin-bottom: 30px; }
   .header-banner {
     min-height: 225px; }
@@ -199,9 +197,9 @@
 
 /*600px*/
 @media screen and (max-width: 600px) {
-  #banner-carousel .item .corousel-desc h1 {
+  .banner-quote .item .corousel-desc h1 {
     font-size: 20px !important; }
-  #banner-carousel .item {
+  .banner-quote .item {
     height: 256px; }
   .banner-wall {
     min-height: 256px; }
@@ -218,7 +216,7 @@
     border-bottom: none;
     border-left: 2px solid #ff9900; }
   .menu-list li a:hover {
-    border-bottom: none; }
+    border-bottom: 4px solid transparent; }
   .navtoggle {
     display: -webkit-box;
     display: -webkit-flex;
@@ -248,13 +246,13 @@
 
 /*480px*/
 @media screen and (max-width: 479px) {
-  #banner-carousel .item .corousel-desc h1 {
+  .banner-quote .item .corousel-desc h1 {
     font-size: 15px !important;
     line-height: 30px; }
-  #banner-carousel .item .corousel-desc p {
+  .banner-quote .item .corousel-desc p {
     font-size: 13px !important;
     letter-spacing: 1px; }
-  #banner-carousel .item .corousel-desc .slide-wrap {
+  .banner-quote .item .corousel-desc .slide-wrap {
     margin: 15px 0 10px 0; }
   .corousel-desc {
     top: 26% !important; }
@@ -271,7 +269,11 @@
   .header-banner {
     min-height: 180px; }
   .header-title {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .service-panel-item .panel-head {
+    padding: 10px 0; }
+  .service-panel-item .panel-body .panel-list {
+    padding: 10px 15px; } }
 
 /*Необходимость*/
 @media screen and (min-width: 560px) {
